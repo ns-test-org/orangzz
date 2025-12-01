@@ -104,13 +104,13 @@ export default function Calculator() {
             {/* Row 1 */}
             <button
               onClick={clear}
-              className="col-span-2 bg-green-300/70 hover:bg-green-300/80 text-green-900 rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-400/50"
+              className="col-span-2 bg-purple-500 hover:bg-purple-600 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-purple-400/50"
             >
               Clear
             </button>
             <button
               onClick={clearEntry}
-              className="bg-green-300/70 hover:bg-green-300/80 text-green-900 rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-400/50"
+              className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-purple-400/50"
             >
               CE
             </button>
@@ -224,6 +224,7 @@ export default function Calculator() {
     </div>
   );
 }
+
 
 
 
