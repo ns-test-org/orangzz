@@ -85,9 +85,9 @@ export default function Calculator() {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden">
-      {/* Animated Orange Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 animate-pulse-breathing"></div>
-      <div className="absolute inset-0 bg-gradient-to-tl from-orange-300/30 via-transparent to-orange-700/30 animate-pulse-breathing-reverse"></div>
+      {/* Animated Green Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-green-500 to-green-600 animate-pulse-breathing"></div>
+      <div className="absolute inset-0 bg-gradient-to-tl from-green-300/30 via-transparent to-green-700/30 animate-pulse-breathing-reverse"></div>
       
       {/* Calculator */}
       <div className="relative z-10 bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/20">
@@ -104,19 +104,19 @@ export default function Calculator() {
             {/* Row 1 */}
             <button
               onClick={clear}
-              className="col-span-2 bg-orange-200/20 hover:bg-orange-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="col-span-2 bg-green-200/20 hover:bg-green-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               Clear
             </button>
             <button
               onClick={clearEntry}
-              className="bg-orange-200/20 hover:bg-orange-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-200/20 hover:bg-green-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               CE
             </button>
             <button
               onClick={() => inputOperation('÷')}
-              className="bg-orange-600/40 hover:bg-orange-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-600/40 hover:bg-green-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               ÷
             </button>
@@ -142,7 +142,7 @@ export default function Calculator() {
             </button>
             <button
               onClick={() => inputOperation('×')}
-              className="bg-orange-600/40 hover:bg-orange-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-600/40 hover:bg-green-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               ×
             </button>
@@ -168,7 +168,7 @@ export default function Calculator() {
             </button>
             <button
               onClick={() => inputOperation('-')}
-              className="bg-orange-600/40 hover:bg-orange-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-600/40 hover:bg-green-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               −
             </button>
@@ -194,7 +194,7 @@ export default function Calculator() {
             </button>
             <button
               onClick={() => inputOperation('+')}
-              className="bg-orange-600/40 hover:bg-orange-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-600/40 hover:bg-green-600/60 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
             >
               +
             </button>
@@ -214,7 +214,7 @@ export default function Calculator() {
             </button>
             <button
               onClick={performCalculation}
-              className="bg-orange-500 hover:bg-orange-600 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg"
+              className="bg-green-500 hover:bg-green-600 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg"
             >
               =
             </button>
@@ -224,4 +224,10 @@ export default function Calculator() {
     </div>
   );
 }
+
+
+
+
+
+
 
