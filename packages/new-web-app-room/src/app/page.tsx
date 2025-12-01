@@ -90,11 +90,11 @@ export default function Calculator() {
       <div className="absolute inset-0 bg-gradient-to-tl from-green-300/30 via-transparent to-green-700/30 animate-pulse-breathing-reverse"></div>
       
       {/* Calculator */}
-      <div className="relative z-10 bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/20">
+      <div className="relative z-10 bg-green-800/90 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-green-400/50">
         <div className="w-80 max-w-full">
           {/* Display */}
-          <div className="bg-black/20 rounded-2xl p-6 mb-6 backdrop-blur-sm">
-            <div className="text-right text-4xl font-light text-white font-mono overflow-hidden">
+          <div className="bg-black/90 rounded-2xl p-6 mb-6 backdrop-blur-sm border border-green-400/30">
+            <div className="text-right text-4xl font-light text-green-100 font-mono overflow-hidden">
               {display}
             </div>
           </div>
@@ -104,13 +104,13 @@ export default function Calculator() {
             {/* Row 1 */}
             <button
               onClick={clear}
-              className="col-span-2 bg-green-200/20 hover:bg-green-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="col-span-2 bg-green-300/70 hover:bg-green-300/80 text-green-900 rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-400/50"
             >
               Clear
             </button>
             <button
               onClick={clearEntry}
-              className="bg-green-200/20 hover:bg-green-200/30 text-white rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-300/70 hover:bg-green-300/80 text-green-900 rounded-xl p-4 text-lg font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-400/50"
             >
               CE
             </button>
@@ -124,19 +124,19 @@ export default function Calculator() {
             {/* Row 2 */}
             <button
               onClick={() => inputNumber('7')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               7
             </button>
             <button
               onClick={() => inputNumber('8')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               8
             </button>
             <button
               onClick={() => inputNumber('9')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               9
             </button>
@@ -150,19 +150,19 @@ export default function Calculator() {
             {/* Row 3 */}
             <button
               onClick={() => inputNumber('4')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               4
             </button>
             <button
               onClick={() => inputNumber('5')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               5
             </button>
             <button
               onClick={() => inputNumber('6')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               6
             </button>
@@ -176,19 +176,19 @@ export default function Calculator() {
             {/* Row 4 */}
             <button
               onClick={() => inputNumber('1')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               1
             </button>
             <button
               onClick={() => inputNumber('2')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               2
             </button>
             <button
               onClick={() => inputNumber('3')}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               3
             </button>
@@ -202,13 +202,13 @@ export default function Calculator() {
             {/* Row 5 */}
             <button
               onClick={() => inputNumber('0')}
-              className="col-span-2 bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="col-span-2 bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               0
             </button>
             <button
               onClick={inputDecimal}
-              className="bg-white/10 hover:bg-white/20 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm"
+              className="bg-green-700/60 hover:bg-green-600/70 text-white rounded-xl p-4 text-xl font-medium transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-sm border border-green-500/30"
             >
               .
             </button>
@@ -224,6 +224,12 @@ export default function Calculator() {
     </div>
   );
 }
+
+
+
+
+
+
 
 
 
